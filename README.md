@@ -1,6 +1,6 @@
 PHP Design Pattern
-
-代码示例
+===
+### 代码示例
 ```php
 <?php
 
