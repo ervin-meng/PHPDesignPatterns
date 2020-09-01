@@ -1,0 +1,35 @@
+@startuml
+
+abstract class AbstractFlyweight
+{
+    public $internalState;
+    public $externalState;
+
+    abstract public function render();
+
+    __construct($externalState)
+
+}
+
+class FlyweightFactory
+{
+    protected $flyweights = [];
+    getFlyweight($externalState)
+
+}
+
+class Flyweight extends AbstractFlyweight
+{
+     render()
+
+}
+
+class UnsharedFlyweight extends AbstractFlyweight
+{
+    render()
+
+}
+
+Flyweight <.. FlyweightFactory
+
+@enduml

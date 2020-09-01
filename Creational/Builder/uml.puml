@@ -1,0 +1,46 @@
+@startuml
+class Director {
+build(Builder $builder)
+}
+
+abstract AbstractProduct {
+    public $part1;
+    public $part2;
+
+    setPart1();
+    setPart2();
+    run();
+}
+
+class Product {
+    public $part1;
+    public $part2;
+
+    setPart1();
+    setPart2();
+    run();
+}
+
+abstract class AbstractBuilder{
+    public $product;
+
+    createProduct();
+    getProduct();
+    buildPart1();
+    buildPart2();
+}
+
+class Builder {
+    public $product;
+    createProduct();
+    getProduct();
+    buildPart1();
+    buildPart2();
+}
+
+Director o- Builder
+Builder o- Product
+AbstractBuilder <|-- Builder
+AbstractProduct <|-- Product
+
+@enduml

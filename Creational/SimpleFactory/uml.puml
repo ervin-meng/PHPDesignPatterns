@@ -1,0 +1,24 @@
+@startuml
+
+abstract class AbstractProduct
+
+class ProductA {
+
+}
+
+class ProductB {
+
+}
+
+
+class Factory {
+    createProduct($productName)
+}
+
+AbstractProduct <|-left- ProductA
+AbstractProduct <|-right- ProductB
+ProductA <.. Factory
+ProductB <.. Factory
+
+
+@enduml

@@ -1,0 +1,18 @@
+@startuml
+
+abstract class AbstractTemplate
+{
+    abstract protected  BasicMethodStep1();
+    abstract protected  BasicMethodStep2();
+
+    final public templateMethod()
+}
+
+class Template extends AbstractTemplate
+{
+    protected  BasicMethodStep1()
+    protected  BasicMethodStep2()
+
+}
+
+@enduml

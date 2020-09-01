@@ -1,0 +1,21 @@
+@startuml
+
+abstract class AbstractSubject
+{
+    resolveRequest();
+}
+
+class Subject extends AbstractSubject
+{
+    resolveRequest()
+}
+
+class SubjectProxy extends AbstractSubject
+{
+    resolveRequest()
+
+    selectSubject()
+}
+
+Subject <-left- SubjectProxy
+@enduml

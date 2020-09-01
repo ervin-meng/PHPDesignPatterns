@@ -1,0 +1,21 @@
+@startuml
+
+abstract class AbstractComponent {
+    render()
+}
+
+class Composite {
+    $components
+    addComponent(AbstractComponent $componen)
+    render()
+}
+
+class Leaf {
+    render()
+}
+
+AbstractComponent <|-- Leaf
+AbstractComponent <|-left- Composite
+Composite o-- Leaf
+
+@enduml

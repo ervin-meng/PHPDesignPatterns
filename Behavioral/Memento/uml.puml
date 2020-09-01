@@ -1,0 +1,29 @@
+@startuml
+
+class Caretaker
+{
+    protected $memento;
+
+    setMemento(Memento $memento)
+    getMemento()
+}
+
+class Memento
+{
+    $state;
+    setState($state)
+    getState()
+}
+
+class Originator
+{
+    public $state;
+
+    createMemento()
+    loadMemento(Memento $memento)
+}
+
+Caretaker o-- Memento
+Memento <-- Caretaker
+Memento <-right-Originator
+@enduml

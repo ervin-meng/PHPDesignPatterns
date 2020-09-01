@@ -1,0 +1,31 @@
+@startuml
+
+abstract class AbstractSubject
+{
+    protected $observers = [];
+
+    on($eventName, AbstractObserver $observer, $observerMethod, $observerParams)
+
+    off($eventName, AbstractObserver $observer)
+    trigger($eventName)
+}
+
+class Subject extends  AbstractSubject
+{
+    doBehavior()
+}
+
+abstract class AbstractObserver
+{
+    subjectEventHandler();
+}
+
+class Observer extends AbstractObserver
+{
+    subjectEventHandler()
+
+}
+
+Observer <-- Subject
+
+@enduml

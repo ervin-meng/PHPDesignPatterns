@@ -1,0 +1,42 @@
+@startuml
+
+interface AbstractState
+{
+     start()
+     end()
+}
+
+class UnStartedState implements  AbstractState
+{
+    start()
+    end()
+}
+
+class StartedState implements  AbstractState
+{
+    start()
+    end()
+}
+
+class EndedState implements  AbstractState
+{
+    start()
+    end()
+}
+
+class StateContext implements  AbstractState
+{
+    protected $state;
+
+    __construct(AbstractState $state)
+    start()
+    end()
+    setState(AbstractState $state)
+    getState()
+}
+
+UnStartedState <-- StateContext
+StartedState   <-- StateContext
+EndedState     <-- StateContext
+
+@enduml

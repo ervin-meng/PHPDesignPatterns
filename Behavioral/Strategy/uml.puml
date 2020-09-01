@@ -1,0 +1,39 @@
+@startuml
+
+abstract class AbstractStrategy
+{
+    protected $accountId;
+    protected $pushKey;
+    protected $pullKey;
+
+    pullSecret();
+    pushSecret();
+    __construct($accountId, $pushKey, $pullKey)
+}
+
+class AliStrategy
+{
+    pullSecret()
+    pushSecret()
+}
+
+class TencentStrategy
+{
+    pullSecret()
+    pushSecret()
+}
+
+class StrategyContext
+{
+    protected $strategy;
+
+    __construct(AbstractStrategy $strategy)
+
+    pullSecret()
+    pushSecret()
+}
+
+StrategyContext o-- AbstractStrategy
+AbstractStrategy <|-left- TencentStrategy
+AbstractStrategy <|-right- AliStrategy
+@enduml

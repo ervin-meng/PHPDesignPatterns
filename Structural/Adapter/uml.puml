@@ -1,0 +1,20 @@
+@startuml
+
+abstract class Target
+{
+    abstract function sayInChinese(Adaptee $adaptee);
+}
+
+class Adaptee
+{
+    sayInEnglish()
+}
+
+class Adapter extends Target
+{
+    ayInChinese(Adaptee $adaptee)
+}
+
+Adaptee <-right- Adapter
+
+@enduml

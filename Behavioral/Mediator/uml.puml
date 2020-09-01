@@ -1,0 +1,51 @@
+@startuml
+
+abstract class AbstractColleague
+{
+    /**
+     * @var Mediator
+     */
+    protected $mediator;
+
+    __construct(AbstractMediator $mediator)
+}
+
+class ColleagueB
+{
+    methodA()
+    methodB()
+}
+
+class ColleagueA
+{
+    methodA()
+    methodB()
+}
+
+abstract class AbstractMediator
+{
+    __construct(ColleagueA $colleagueA, ColleagueB $colleagueB)
+}
+
+class Mediator extends AbstractMediator
+{
+    /**
+     * @var $colleagueA ColleagueA
+     */
+    protected $colleagueA;
+    /**
+     * @var $colleagueB ColleagueB
+     */
+    protected $colleagueB;
+
+    methodA()
+    methodB()
+}
+
+AbstractColleague <|-left- ColleagueA
+AbstractColleague <|-right- ColleagueB
+
+AbstractColleague <-- AbstractMediator
+AbstractMediator <-- AbstractColleague
+
+@enduml

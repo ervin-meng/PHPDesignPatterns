@@ -1,0 +1,31 @@
+@startuml
+
+class Invoker
+{
+    runCommand(AbstractCommand $command)
+}
+
+class Receiver
+{
+    processCommand()
+}
+
+abstract class AbstractCommand
+{
+    /**
+     * @var Receiver
+     */
+    protected $receiver;
+
+    abstract public function execute();
+}
+
+class Command extends  AbstractCommand
+{
+   execute()
+}
+
+Invoker *-- Command
+Receiver <-- Command
+
+@enduml

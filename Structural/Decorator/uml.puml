@@ -1,0 +1,26 @@
+@startuml
+
+abstract class AbstractComponent
+{
+    render()
+}
+
+abstract class AbstractDecorator extends AbstractComponent
+{
+    protected $component;
+
+    render()
+    __construct(AbstractComponent $component)
+}
+
+class Decorator extends AbstractDecorator {
+    render()
+}
+
+class Component extends AbstractComponent {
+    render()
+}
+
+Decorator o-left- Component
+
+@enduml

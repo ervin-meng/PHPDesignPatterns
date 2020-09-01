@@ -1,0 +1,17 @@
+@startuml
+abstract class AbstractPrototype{
+    protected $status;
+    getStatus();
+    setStatus();
+    abstract __clone();
+}
+
+class Prototype {
+    protected $status;
+    getStatus();
+    setStatus();
+    __clone();
+
+}
+AbstractPrototype <|-- Prototype
+@enduml

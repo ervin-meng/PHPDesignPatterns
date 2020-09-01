@@ -1,0 +1,23 @@
+@startuml
+
+class SystemA
+{
+    methodA()
+}
+
+class SystemB
+{
+    methodB()
+
+}
+
+class Facade
+{
+    run()
+}
+
+SystemB <-- Facade
+SystemA <-- Facade
+
+
+@enduml

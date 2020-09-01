@@ -1,0 +1,25 @@
+@startuml
+
+abstract class AbstractElement
+{
+    abstract function accept(AbstractVisitor $visitor);
+}
+
+class Element extends AbstractElement
+{
+    accept(AbstractVisitor $visitor)
+}
+
+abstract class AbstractVisitor
+{
+    abstract function visit(AbstractElement $element);
+}
+
+class Visitor extends AbstractVisitor
+{
+    visit(AbstractElement $element)
+}
+
+Visitor <-- Element
+Element <-- Visitor
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+
+abstract class AbstractHandler
+{
+    protected $nextHandler
+    abstract  process()
+    final  handleRequest()
+}
+
+class Handler extends AbstractHandler
+{
+    protected $nextHandler
+    process()
+}
+
+@enduml
