@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Behavioral\State;
+namespace PHPDesignPatterns\Behavioral\State;
 
 class StartedState implements  AbstractState
 {

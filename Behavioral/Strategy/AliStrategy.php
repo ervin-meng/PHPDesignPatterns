@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Behavioral\Strategy;
+namespace PHPDesignPatterns\Behavioral\Strategy;
 
 class AliStrategy extends AbstractStrategy
 {

@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Structural\Flyweight;
+namespace PHPDesignPatterns\Structural\Flyweight;
 
 class FlyweightFactory
 {

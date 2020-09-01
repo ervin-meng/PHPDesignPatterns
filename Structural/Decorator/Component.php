@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Structural\Decorator;
+namespace PHPDesignPatterns\Structural\Decorator;
 
 class Component extends AbstractComponent
 {

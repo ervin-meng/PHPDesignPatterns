@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Creational\Builder;
+namespace PHPDesignPatterns\Creational\Builder;
 
 class Product extends AbstractProduct
 {

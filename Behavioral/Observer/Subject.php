@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Behavioral\Observer;
+namespace PHPDesignPatterns\Behavioral\Observer;
 
 class Subject extends  AbstractSubject
 {

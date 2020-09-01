@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Creational\AbstractFactory;
+namespace PHPDesignPatterns\Creational\AbstractFactory;
 
 class Factory2 extends AbstractFactory
 {

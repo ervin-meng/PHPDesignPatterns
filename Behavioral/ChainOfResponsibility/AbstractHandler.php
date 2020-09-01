@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Behavioral\ChainOfResponsibility;
+namespace PHPDesignPatterns\Behavioral\ChainOfResponsibility;
 
 abstract class AbstractHandler
 {

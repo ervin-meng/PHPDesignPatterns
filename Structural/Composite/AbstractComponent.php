@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Structural\Composite;
+namespace PHPDesignPatterns\Structural\Composite;
 
 abstract class AbstractComponent
 {

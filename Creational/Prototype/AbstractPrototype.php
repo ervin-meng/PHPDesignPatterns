@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Creational\Prototype;
+namespace PHPDesignPatterns\Creational\Prototype;
 
 abstract class AbstractPrototype
 {

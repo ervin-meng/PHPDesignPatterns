@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Behavioral\Command;
+namespace PHPDesignPatterns\Behavioral\Command;
 
 class Receiver
 {

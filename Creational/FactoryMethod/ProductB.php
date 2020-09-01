@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Creational\FactoryMethod;
+namespace PHPDesignPatterns\Creational\FactoryMethod;
 
 class ProductB extends AbstractProduct
 {

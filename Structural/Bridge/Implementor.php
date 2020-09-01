@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Structural\Bridge;
+namespace PHPDesignPatterns\Structural\Bridge;
 
 class Implementor extends AbstractImplementor
 {

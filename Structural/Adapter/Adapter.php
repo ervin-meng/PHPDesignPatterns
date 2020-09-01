@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Structural\Adapter;
+namespace PHPDesignPatterns\Structural\Adapter;
 
 class Adapter extends Target
 {

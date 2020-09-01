@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Structural\Facade;
+namespace PHPDesignPatterns\Structural\Facade;
 
 class Facade
 {

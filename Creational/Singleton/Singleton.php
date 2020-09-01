@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Creational\Singleton;
+namespace PHPDesignPatterns\Creational\Singleton;
 
 final class Singleton
 {

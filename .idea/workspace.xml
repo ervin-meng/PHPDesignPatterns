@@ -1,7 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e77284-f0fb-415f-b72a-dc1268a39ac9" name="Default Changelist" comment="" />
+    <list default="true" id="30e77284-f0fb-415f-b72a-dc1268a39ac9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/ChainOfResponsibility/AbstractHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/ChainOfResponsibility/AbstractHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/ChainOfResponsibility/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/ChainOfResponsibility/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Command/AbstractCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Command/AbstractCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Command/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Command/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Command/Invoker.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Command/Invoker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Command/Receiver.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Command/Receiver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Mediator/AbstractColleague.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Mediator/AbstractColleague.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Mediator/AbstractMediator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Mediator/AbstractMediator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Mediator/ColleagueA.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Mediator/ColleagueA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Mediator/ColleagueB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Mediator/ColleagueB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Mediator/Mediator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Mediator/Mediator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Memento/Caretaker.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Memento/Caretaker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Memento/Memento.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Memento/Memento.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Memento/Originator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Memento/Originator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Observer/AbstractObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Observer/AbstractObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Observer/AbstractSubject.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Observer/AbstractSubject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Observer/Observer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Observer/Observer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Observer/Subject.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Observer/Subject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/State/AbstractState.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/State/AbstractState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/State/EndedState.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/State/EndedState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/State/StartedState.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/State/StartedState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/State/StateContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/State/StateContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/State/UnStartedState.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/State/UnStartedState.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Strategy/AbstractStrategy.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Strategy/AbstractStrategy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Strategy/AliStrategy.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Strategy/AliStrategy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Strategy/StrategyContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Strategy/StrategyContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Strategy/TencentStrategy.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Strategy/TencentStrategy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/TemplateMethod/AbstractTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/TemplateMethod/AbstractTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/TemplateMethod/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/TemplateMethod/Template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Visitor/AbstractElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Visitor/AbstractElement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Visitor/AbstractVisitor.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Visitor/AbstractVisitor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Visitor/Element.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Visitor/Element.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Visitor/Visitor.php" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Visitor/Visitor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/AbstractFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/AbstractFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/AbstractProductA.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/AbstractProductA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/AbstractProductB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/AbstractProductB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/Factory1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/Factory1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/Factory2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/Factory2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/ProductA1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/ProductA1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/ProductA2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/ProductA2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/ProductB1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/ProductB1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/ProductB2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/ProductB2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/Builder/AbstractBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Builder/AbstractBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/Builder/AbstractProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Builder/AbstractProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/Builder/Builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Builder/Builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/Builder/Director.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Builder/Director.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/Builder/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Builder/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/FactoryMethod/AbstractFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/FactoryMethod/AbstractFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/FactoryMethod/AbstractProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/FactoryMethod/AbstractProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/FactoryMethod/FactoryA.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/FactoryMethod/FactoryA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/FactoryMethod/FactoryB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/FactoryMethod/FactoryB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/FactoryMethod/ProductA.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/FactoryMethod/ProductA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/FactoryMethod/ProductB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/FactoryMethod/ProductB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/Prototype/AbstractPrototype.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Prototype/AbstractPrototype.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/Prototype/Prototype.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Prototype/Prototype.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/SimpleFactory/AbstractProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/SimpleFactory/AbstractProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/SimpleFactory/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/SimpleFactory/Factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/SimpleFactory/ProductA.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/SimpleFactory/ProductA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/SimpleFactory/ProductB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/SimpleFactory/ProductB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/Singleton/Singleton.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Singleton/Singleton.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Adapter/Adaptee.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Adapter/Adaptee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Adapter/Adapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Adapter/Adapter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Adapter/Target.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Adapter/Target.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Bridge/AbstractAbstraction.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Bridge/AbstractAbstraction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Bridge/AbstractImplementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Bridge/AbstractImplementor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Bridge/Abstraction.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Bridge/Abstraction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Bridge/Implementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Bridge/Implementor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Composite/AbstractComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Composite/AbstractComponent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Composite/Composite.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Composite/Composite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Composite/Leaf.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Composite/Leaf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Decorator/AbstractComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Decorator/AbstractComponent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Decorator/AbstractDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Decorator/AbstractDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Decorator/Component.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Decorator/Component.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Decorator/Decorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Decorator/Decorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Facade/Facade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Facade/Facade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Facade/SystemA.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Facade/SystemA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Facade/SystemB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Facade/SystemB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Flyweight/AbstractFlyweight.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Flyweight/AbstractFlyweight.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Flyweight/Flyweight.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Flyweight/Flyweight.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Flyweight/FlyweightFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Flyweight/FlyweightFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Flyweight/UnsharedFlyweight.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Flyweight/UnsharedFlyweight.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Proxy/AbstractSubject.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Proxy/AbstractSubject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Proxy/Subject.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Proxy/Subject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structural/Proxy/SubjectProxy.php" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Proxy/SubjectProxy.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +122,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -34,17 +137,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598939542838</updated>
-      <workItem from="1598939544006" duration="1192000" />
+      <workItem from="1598939544006" duration="3614000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化">
+      <created>1598947447811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598947447811</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="362" y="-772" width="588" height="538" key="find.popup" timestamp="1598947076643">
+    <state x="401" y="-720" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598949821990">
       <screen x="-304" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="362" y="-772" width="588" height="538" key="find.popup/0.23.1440.877/-304.-1057.1920.1057@-304.-1057.1920.1057" timestamp="1598947076643" />
+    <state x="401" y="-720" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-304.-1057.1920.1057@-304.-1057.1920.1057" timestamp="1598949821990" />
+    <state x="256" y="-789" key="Vcs.Push.Dialog.v2" timestamp="1598947449603">
+      <screen x="-304" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="256" y="-789" key="Vcs.Push.Dialog.v2/0.23.1440.877/-304.-1057.1920.1057@-304.-1057.1920.1057" timestamp="1598947449603" />
+    <state x="362" y="-772" width="588" height="538" key="find.popup" timestamp="1598949208692">
+      <screen x="-304" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="362" y="-772" width="588" height="538" key="find.popup/0.23.1440.877/-304.-1057.1920.1057@-304.-1057.1920.1057" timestamp="1598949208692" />
   </component>
 </project>

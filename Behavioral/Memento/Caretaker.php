@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Behavioral\Memento;
+namespace PHPDesignPatterns\Behavioral\Memento;
 
 class Caretaker
 {

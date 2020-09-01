@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Structural\Composite;
+namespace PHPDesignPatterns\Structural\Composite;
 
 class Leaf extends AbstractComponent
 {

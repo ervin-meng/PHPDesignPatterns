@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Behavioral\Visitor;
+namespace PHPDesignPatterns\Behavioral\Visitor;
 
 abstract class AbstractVisitor
 {

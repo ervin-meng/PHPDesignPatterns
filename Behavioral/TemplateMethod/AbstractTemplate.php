@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Behavioral\TemplateMethod;
+namespace PHPDesignPatterns\Behavioral\TemplateMethod;
 
 abstract class AbstractTemplate
 {

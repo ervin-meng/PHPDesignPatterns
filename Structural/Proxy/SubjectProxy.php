@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Structural\Proxy;
+namespace PHPDesignPatterns\Structural\Proxy;
 
 class SubjectProxy extends AbstractSubject
 {

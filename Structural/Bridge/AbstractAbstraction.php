@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Structural\Bridge;
+namespace PHPDesignPatterns\Structural\Bridge;
 
 abstract class AbstractAbstraction
 {

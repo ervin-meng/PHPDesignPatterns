@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Creational\SimpleFactory;
+namespace PHPDesignPatterns\Creational\SimpleFactory;
 
 class Factory
 {

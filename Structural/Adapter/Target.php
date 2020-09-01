@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Structural\Adapter;
+namespace PHPDesignPatterns\Structural\Adapter;
 
 abstract class Target
 {

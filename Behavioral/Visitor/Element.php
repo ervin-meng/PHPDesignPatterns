@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Behavioral\Visitor;
+namespace PHPDesignPatterns\Behavioral\Visitor;
 
 class Element extends AbstractElement
 {

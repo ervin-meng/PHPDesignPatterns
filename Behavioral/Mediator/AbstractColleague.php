@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Behavioral\Mediator;
+namespace PHPDesignPatterns\Behavioral\Mediator;
 
 abstract class AbstractColleague
 {
